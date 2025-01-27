@@ -7,5 +7,5 @@ export default defineConfig({
     
     tailwindcss(),
   ],
-  base: "/my-project",
+  base: "/my-app",
 })
