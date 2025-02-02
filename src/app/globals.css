@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@keyframes pulse-fast{
+    0%,50% {
+        opacity: 0;
+    }
+    25%, 100%{
+        opacity: 100;
+    }
+}
