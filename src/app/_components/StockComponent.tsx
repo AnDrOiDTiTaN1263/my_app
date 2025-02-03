@@ -1,7 +1,7 @@
 'useClient'
-import React, { useState } from 'react'
+import React, { SetStateAction, useState } from 'react'
 import {Stock} from "../utils";
-export default function StockComponent({stock, weight, i, handleRemove, setUpdate}:{stock:Stock,weight:number,i:number, handleRemove:Function, setUpdate:Function}) {
+export default function StockComponent({stock, weight, i, handleRemove, setUpdate}:{stock:Stock,weight:number,i:number, handleRemove:any, setUpdate:any}) {
     const [hoverSell, setHoverSell] = useState(false);
     const non_ending_node_style = "flex w-full h-full border-r-2 border-black justify-center items-center";
 

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import {getAllUnits, Stock} from "../utils";
 import StockComponent from './StockComponent';
-export default function StockList({update, setUpdate, handleRemove}:{update:boolean, setUpdate:Function, handleRemove:Function}) {
+export default function StockList({update, setUpdate, handleRemove}:{update:boolean, setUpdate:any, handleRemove:any}) {
     const [shownStocks, setShownStocks] = useState(Array<Stock>); 
     const [allStocks, setAllStocks]= useState(Array<Stock>);
     useEffect(()=>{
