@@ -12,20 +12,28 @@
   },
   "dependencies": {
     "@tailwindcss/postcss": "^4.0.0",
+    "aws-amplify": "^6.12.2",
     "next": "15.1.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
+    "@aws-amplify/backend": "^1.14.0",
+    "@aws-amplify/backend-cli": "^1.4.9",
     "@eslint/eslintrc": "^3",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "aws-cdk": "^2.177.0",
+    "aws-cdk-lib": "^2.177.0",
+    "constructs": "^10.4.2",
+    "esbuild": "^0.24.2",
     "eslint": "^9",
     "eslint-config-next": "15.1.6",
     "gh-pages": "^6.3.0",
     "postcss": "^8.5.1",
     "tailwindcss": "^3.4.17",
-    "typescript": "^5"
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
   }
 }
